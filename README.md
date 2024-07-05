@@ -24,6 +24,7 @@ main{background-color: white;padding: 10px;max-width: 800px;min-width:320px; mar
 main > H1{color: #16fa16;}
 main > H2{color: #16fa16;}
 main > ul > a:hover{background-color: #13c413;color: blue; text-decoration:none}
+ul > a:hover{background-color: #13c413;color: blue; text-decoration:none}
 footer{background-color: var(--Cor4);color: white;margin: 5px;}
 
 footer > P{font-weight: bolder;text-align: center;}
