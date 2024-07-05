@@ -13,7 +13,7 @@ video{width: 100%;}
 h1{text-align: justify;padding: 20px 0px 20px 0px;}
 h2{text-align: justify;}
 p{text-align: justify;}
-header{background-color:#0b740b;color: white
+header{background-color:blue;color: white
     ;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);min-height:150px; center;}
     header > h1{text-align: center;}
     header > p{text-align: center;}
@@ -23,7 +23,7 @@ nav > a:hover{background-color: #13c413;color: white;}
 main{background-color: white;padding: 10px;max-width: 800px;min-width:320px; margin:auto;}
 main > H1{color: #16fa16;}
 main > H2{color: #16fa16;}
-main > a:hover{background-color: #13c413;color: white;}
+main > ul> a:hover{background-color: #13c413;color: blue; text-decoration:none}
 footer{background-color: var(--Cor4);color: white;margin: 5px;}
 
 footer > P{font-weight: bolder;text-align: center;}
