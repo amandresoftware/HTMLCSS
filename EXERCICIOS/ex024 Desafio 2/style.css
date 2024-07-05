@@ -1,0 +1,24 @@
+@charset "UTF-8";
+Body{background-image: linear-gradient(to bottom,#1E86,white, rgba(255, 115, 0, 0.336), rgb(202, 18, 147));background-attachment: fixed; font:normal normal 1em arial, serif;}
+* {
+    margin: 0px;padding: 0px;
+}
+img{width: 100%;}
+video{width: 100%;}
+h1{text-align: justify;}
+h2{text-align: justify;}
+p{text-align: justify;}
+header{background-image: linear-gradient(to bottom,#1E86, #1e8649af, #03642b);border-radius: 0px 0px 10px 10px; padding: 10px;}
+h1.hh1{text-align: center; color: rgb(22, 17, 17); text-shadow: 2px 2px 2px rgba(255, 115, 0, 0.336);}
+h2.hh2{text-align: center;color: rgba(22, 1, 1, 0.952); text-shadow: 2px 2px 2px rgba(255, 115, 0, 0.336)}
+nav.link{font-size: 20px;}
+nav{color: #2D9E60;font-weight: bolder;text-align: justify;text-shadow: 1px 1px 1px black;}
+nav > a{font-family: 'Times New Roman', Times, serif; text-decoration: none;background-color: none;color:#2D9E60;}
+nav > a:hover{background-color: #2D9E60;box-shadow: 3px 3px 3px rgba(61, 59, 59, 0.822);color: #013C1A;} 
+nav > a:active{background-color: antiquewhite;color:rgb(2, 2, 168)}
+nav > a:visited{background-color:#2D9E60;colorv:rgb(4, 4, 78)}
+main{background-color: aliceblue;margin:0px auto; border-radius:10px 10px;padding: 5px;box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);min-width: 320px;max-width: 850px;}
+footer{background-color: rgba(16, 194, 111, 0.979);margin; border-radius:10px 10px 0px 0px;padding: 5px;box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);margin-top: 10px;}
+footer > p{text-align: center;background-attachment: fixed;}
+footer >p> a{background-color:#2D9E60; text-shadow: 2px 2px 2px black ;text-decoration: none;color: #013C1A;}
+footer >p> a:hover{background-color: rgb(96, 96, 226);color: black;}

@@ -1,0 +1,16 @@
+@Charset "UTF-8";
+body{background-image: linear-gradient(to top, rgb(15, 233, 15), rgb(233, 233, 21) );text-size-adjust;height: 100%;background-attachment: fixed;}
+main{background-color: white;padding:10px;margin: auto;max-width:1024px; 10px;box-shadow: 5px 5px 5px rgba(233, 184, 184, 0.507);}
+p{text-align: justify; text-indent: 30px;}
+h1{text-align: center; text-shadow: 1px 1px 1px rgba(255, 255, 0, 0.651);}
+h2{text-align: left;}
+#meu{background-color: aqua;width:fit-content;width: ;}
+.hh2{background-color: rgb(12, 192, 162);width: max-content;
+}
+.hh2:hover{background-color: blueviolet;color: brown;}
+.hh2:active{background-color: blueviolet;max-width: 800px; box-shadow: 2px 2px 2px red; padding: 5px; border-radius: 10px; text-decoration: underline;}
+.hhh2:after{content: 'Fim do paragrafo'; background-color: brown;font-size: 0.5em;}
+
+.nnn{background-color: aqua; margin-top: 10px;}
+div>p{display: none;}
+div:hover>p{display: block;}

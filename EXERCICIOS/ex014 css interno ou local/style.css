@@ -1,0 +1,11 @@
+@charset "UTF-8"
+body {background-color: chocolate;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1 {color: brown;;
+
+}
+h2 {color: deeppink;}
+p {text-align: justify;}
