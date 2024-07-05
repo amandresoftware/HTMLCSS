@@ -1,7 +1,41 @@
 # HTMLCSS
- <header style="background-color:red; font-size:1em;" ><h1>Aprendizagem de construção de Sites</h1> </header>
+ 
+ <style>
+    body{
+        :root{
+--cor1:#16fa16; --cor2:#13c413;--cor3:#0b740b;--Cor4:#042b04; 
+--fonth1:arial, Time New Roman, cursive; 
 
- <body style="background-color:aqua; font-size:1em; margin:0px; font-family:arial, cursive">
+}
+* {margin: 0px; padding: 0px;}
+body{background-color:aqua;font-family: var(--fonth1);}
+img{width: 100%;}
+video{width: 100%;}
+h1{text-align: justify;padding: 20px 0px 20px 0px;}
+h2{text-align: justify;}
+p{text-align: justify;}
+header{background-color:#0b740b;color: white
+    ;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);min-height:150px; center;}
+    header > h1{text-align: center;}
+    header > p{text-align: center;}
+nav{background-color:#042b04;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);padding: 2px;transition-duration: 1s;}
+nav > a{width: fit-content;text-decoration: none;background-color: #0b740b;color: white;}
+nav > a:hover{background-color: #13c413;color: white;}
+main{background-color: white;padding: 10px;max-width: 800px;min-width:320px; margin:auto;}
+main > H1{color: #16fa16;}
+main > H2{color: #16fa16;}
+footer{background-color: var(--Cor4);color: white;margin: 5px;}
+article{padding: 10px;margin: auto;margin-bottom: 10px;}
+article > h1{color: #16fa16;}
+article > h1{color: #16fa16;}
+footer > P{font-weight: bolder;text-align: center;}
+footer > h1{font-weight: bolder; font-size: 1em;}
+    }
+ </style>
+ <header><h1>Aprendizagem de construção de Sites</h1> </header>
+
+ <body>
+ <main>
 <ul>
 <li><a href="exercicios/ex001/index.html" target="_black">Executar o exercício nº 1</a></li>
 <li><a href="exercicios/ex002/index.html" target="_black">Executar o exercício nº 2</a></li>
@@ -25,4 +59,5 @@
 <li><a href="exercicios/ex024/index.html" target="_black">Executar o exercício nº 24</a></li>
 <li><a href="exercicios/ex024desafio/index.html" target="_black">Executar o exercício do desafio nº 24</a></li>
 <li><a href="exercicios/ex024desafio/index.html" target="_black">Executar o exercício do desafio nº 24</a></li></ul>
+</main>
 </body>
