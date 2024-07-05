@@ -17,7 +17,7 @@ nav > a{font-family: 'Times New Roman', Times, serif; text-decoration: none;back
 nav > a:hover{background-color: #2D9E60;box-shadow: 3px 3px 3px rgba(61, 59, 59, 0.822);color: #013C1A;} 
 nav > a:active{background-color: antiquewhite;color:rgb(2, 2, 168)}
 nav > a:visited{background-color:#2D9E60;colorv:rgb(4, 4, 78)}
-main{background-color: aliceblue;margin:0px auto; border-radius:10px 10px;padding: 5px;box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);min-width: 320px;max-width: 850px;}
+main{background-color: aliceblue;margin:0px auto; border-radius:10px 10px;padding: 5px;box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);min-width: 320px;max-width: 850px;padding: 15px;text-indent: 20px;}
 footer{background-color: rgba(16, 194, 111, 0.979);margin; border-radius:10px 10px 0px 0px;padding: 5px;box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);margin-top: 10px;}
 footer > p{text-align: center;background-attachment: fixed;}
 footer >p> a{background-color:#2D9E60; text-shadow: 2px 2px 2px black ;text-decoration: none;color: #013C1A;}
