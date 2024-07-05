@@ -1,7 +1,6 @@
 # HTMLCSS
  
  <style>
-    body{
         :root{
 --cor1:#16fa16; --cor2:#13c413;--cor3:#0b740b;--Cor4:#042b04; 
 --fonth1:arial, Time New Roman, cursive; 
@@ -24,13 +23,12 @@ nav > a:hover{background-color: #13c413;color: white;}
 main{background-color: white;padding: 10px;max-width: 800px;min-width:320px; margin:auto;}
 main > H1{color: #16fa16;}
 main > H2{color: #16fa16;}
+main > a:hover{background-color: #13c413;color: white;}
 footer{background-color: var(--Cor4);color: white;margin: 5px;}
-article{padding: 10px;margin: auto;margin-bottom: 10px;}
-article > h1{color: #16fa16;}
-article > h1{color: #16fa16;}
+
 footer > P{font-weight: bolder;text-align: center;}
 footer > h1{font-weight: bolder; font-size: 1em;}
-    }
+    
  </style>
  <header><h1>Aprendizagem de construção de Sites</h1> </header>
 
@@ -60,4 +58,5 @@ footer > h1{font-weight: bolder; font-size: 1em;}
 <li><a href="exercicios/ex024desafio/index.html" target="_black">Executar o exercício do desafio nº 24</a></li>
 <li><a href="exercicios/ex024desafio/index.html" target="_black">Executar o exercício do desafio nº 24</a></li></ul>
 </main>
+<footer> <p>Caminhante, não há caminho. Caminho faz-se ao caminhar</p></footer>
 </body>
