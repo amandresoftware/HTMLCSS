@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    font-family: Arial;
+    font-size: 1em;
+}
+h1{
+    font-variant: small-caps;
+}
+caption{
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+
+    
+}
+table{
+    min-width: auto;
+    border-collapse: collapse; 
+}
+td,th{
+    border-style:solid;
+    vertical-align: middle;
+    text-align: center;
+    border-color: rgba(0, 0, 0, 0.521);
+    border-width: 1px;
+
+}
+th{
+    background-color: aqua;
+}
+tbody>tr:nth-child(even){
+    background-color: rgba(169, 107, 226, 0.514);
+}
+tbody>tr:nth-child(odd){
+    background-color: rgba(100, 76, 122, 0.568);
+}
+.nome{
+    text-align: justify;
+}
+thead>tr>th{
+    position: sticky;
+    top:-1px;
+    background-color: aqua;
+}

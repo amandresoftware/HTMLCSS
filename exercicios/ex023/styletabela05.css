@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    overflow-x: auto;
+}
+table{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+caption{
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: underline;
+    font-weight: bold;
+}
+td,th{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 2px;
+    text-align: center;
+}
+thead>tr>th{
+    background-color: aquamarine;
+}
+tbody>tr:nth-child(even){
+    background-color: rgba(172, 255, 47, 0.432);
+}
+tbody>tr:nth-child(odd){
+    background-color: rgba(130, 161, 247, 0.432);
+}
+td:nth-child(2){
+    
+    text-align: justify;
+    font-weight: bold;
+}
+
